@@ -28,11 +28,11 @@ app.layout = html.Div([
 )
 def display_value(value):
     x = []
-    for i in range(value):
+    for i in range(value+1):
         x.append(i)
 
     y=[]
-    for i in range(value):
+    for i in range(value+1):
         y.append(i*i)
 
     graph= go.Scatter(
